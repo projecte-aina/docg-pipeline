@@ -9,14 +9,31 @@
 ```
 pip install -r requirements.txt
 ```
+2. Create a folder with the following structure:
+```
+- data/
+    - output/
+        - ca/
+        - es/
+    - fixed/
+        - ca/
+        - es/
+```
+3. Create a *.env* file in the src/ folder with the following content:
+```
+# environment variables defined inside a .env file
+APP_TOKEN= <INSERT HERE YOUR APP TOKEN OBTAINED FROM: https://analisi.transparenciacatalunya.cat/profile/edit/developer_settings >
+PASSWORD=<INSERT HERE YOUR PASSWORD>
+```
+
 Tested under python 3.7.
 
 ## Usage
 Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
 
 ## Roadmap
-- [] Enable option to download XML files.
-- [] Enable option to download PDF files.
+- [ ] Enable option to download XML files.
+- [ ] Enable option to download PDF files.
 
 ## Contributing
 If you 
