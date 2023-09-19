@@ -42,6 +42,11 @@ Tested under python 3.7.
 ## Usage
 Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
 
+```mermaid
+graph TD;
+    get_metadata.py --> scraper.py --> rebuild_structure.py
+```
+
 ## Roadmap
 - [ ] Enable option to download XML files.
 - [ ] Enable option to download PDF files.
