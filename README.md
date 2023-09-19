@@ -2,11 +2,12 @@
 
 
 
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## Setup
+Some libraries must be installed in order to execute the tool. They are specified in requirements.txt. To do this use the following command:
+```
+pip install -r requirements.txt
+```
+Tested under python 3.7.
 
 ## Add your files
 
