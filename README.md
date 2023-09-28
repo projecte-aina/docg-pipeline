@@ -39,6 +39,10 @@ PASSWORD= <INSERT HERE YOUR PASSWORD>
 
 Tested under python 3.7.
 
+### Deployment via docker compose
+```make crawl```
+
+
 ## Usage
 Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
 
