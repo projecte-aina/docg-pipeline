@@ -1,3 +1,4 @@
+import traceback
 import requests
 from urllib.request import urlopen
 import json
@@ -45,6 +46,7 @@ def read_html(diari, path, lang):
         try:
             chrome_options = Options()
             chrome_options.add_argument("--headless")
+            chrome_options.add_argument('--no-sandbox')
             driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=chrome_options)
             
             driver.get(url) 
@@ -58,6 +60,8 @@ def read_html(diari, path, lang):
             text = ""
             print("Page down.")
             print(url)
+            traceback.print_exc()
+
             time.sleep(100)
 
         # Writes the result in a .txt file 
