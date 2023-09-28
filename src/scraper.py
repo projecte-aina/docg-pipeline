@@ -101,8 +101,10 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Loading metadata file obtained from get_metadata.py
-    f = open("metadata.json", "r")
-    data = json.load(f)
+    # f = open("metadata.json", "r")
+    content_object = s3.Object(config["S3_BUCKET"], 'metadata.json')
+    file_content = content_object.get()['Body'].read().decode('utf-8')
+    data = json.loads(file_content)
     count = 0
 
     # Iterating through the diaris contained in metadata file. 
@@ -153,9 +155,10 @@ if __name__ == "__main__":
         if count >= args.limit:
             break
 
-    f = open("metadata.json", "w")
-    # json_data refers to the above JSON
-    json.dump(data, f, indent=2)
-
+    s3_object = s3.Object(
+        bucket_name=config["S3_BUCKET"], 
+        key="metadata.json"
+    )
+    s3_object.put(Body=json.dumps(data, indent=2))
 
         
