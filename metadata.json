@@ -41,8 +41,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/2011/11/02/aam300/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/20111114-11304081.txt",
-      "es": "data/output/es/20111114-11304081.txt"
+      "ca": "output/ca/20111114-11304081.txt",
+      "es": "output/es/20111114-11304081.txt"
     }
   },
   {
@@ -87,8 +87,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2001/07/24/217/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/20010806-01190002.txt",
-      "es": "data/output/es/20010806-01190002.txt"
+      "ca": "output/ca/20010806-01190002.txt",
+      "es": "output/es/20010806-01190002.txt"
     }
   },
   {
@@ -133,8 +133,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/2011/08/23/aam209/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/20110902-11234009.txt",
-      "es": "data/output/es/20110902-11234009.txt"
+      "ca": "output/ca/20110902-11234009.txt",
+      "es": "output/es/20110902-11234009.txt"
     }
   },
   {
@@ -179,8 +179,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1999/06/17/(1)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19990618-99161067.txt",
-      "es": "data/output/es/19990618-99161067.txt"
+      "ca": "output/ca/19990618-99161067.txt",
+      "es": "output/es/19990618-99161067.txt"
     }
   },
   {
@@ -225,8 +225,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2022/06/28/128/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/20220630-22179077.txt",
-      "es": "data/output/es/20220630-22179077.txt"
+      "ca": "output/ca/20220630-22179077.txt",
+      "es": "output/es/20220630-22179077.txt"
     }
   },
   {
@@ -271,8 +271,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1979/09/18/(1)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19791016-6055-79.txt",
-      "es": "data/output/es/19791016-6055-79.txt"
+      "ca": "output/ca/19791016-6055-79.txt",
+      "es": "output/es/19791016-6055-79.txt"
     }
   },
   {
@@ -317,8 +317,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2000/08/31/300/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/20000914-00237008.txt",
-      "es": "data/output/es/20000914-00237008.txt"
+      "ca": "output/ca/20000914-00237008.txt",
+      "es": "output/es/20000914-00237008.txt"
     }
   },
   {
@@ -363,8 +363,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1991/09/23/(3)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19911002-91224021.txt",
-      "es": "data/output/es/19911002-91224021.txt"
+      "ca": "output/ca/19911002-91224021.txt",
+      "es": "output/es/19911002-91224021.txt"
     }
   },
   {
@@ -409,8 +409,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/2003/03/11/sss130/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/20030327-03070026.txt",
-      "es": "data/output/es/20030327-03070026.txt"
+      "ca": "output/ca/20030327-03070026.txt",
+      "es": "output/es/20030327-03070026.txt"
     }
   },
   {
@@ -455,8 +455,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1985/01/29/(13)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19850213-340-85.txt",
-      "es": "data/output/es/19850213-340-85.txt"
+      "ca": "output/ca/19850213-340-85.txt",
+      "es": "output/es/19850213-340-85.txt"
     }
   },
   {
@@ -501,8 +501,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1989/05/03/(8)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19890510-89123087.txt",
-      "es": "data/output/es/19890510-89123087.txt"
+      "ca": "output/ca/19890510-89123087.txt",
+      "es": "output/es/19890510-89123087.txt"
     }
   },
   {
@@ -547,8 +547,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2018/08/28/191/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/20180830-18240050.txt",
-      "es": "data/output/es/20180830-18240050.txt"
+      "ca": "output/ca/20180830-18240050.txt",
+      "es": "output/es/20180830-18240050.txt"
     }
   },
   {
@@ -593,8 +593,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/2021/05/18/slt108/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/20210521-21139039.txt",
-      "es": "data/output/es/20210521-21139039.txt"
+      "ca": "output/ca/20210521-21139039.txt",
+      "es": "output/es/20210521-21139039.txt"
     }
   },
   {
@@ -639,8 +639,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/1986/09/25/347/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19870102-0920A.txt",
-      "es": "data/output/es/19870102-0920A.txt"
+      "ca": "output/ca/19870102-0920A.txt",
+      "es": "output/es/19870102-0920A.txt"
     }
   },
   {
@@ -685,8 +685,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1991/11/29/(3)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19911202-91333044.txt",
-      "es": "data/output/es/19911202-91333044.txt"
+      "ca": "output/ca/19911202-91333044.txt",
+      "es": "output/es/19911202-91333044.txt"
     }
   },
   {
@@ -731,8 +731,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1993/05/04/(3)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19930514-93120083.txt",
-      "es": "data/output/es/19930514-93120083.txt"
+      "ca": "output/ca/19930514-93120083.txt",
+      "es": "output/es/19930514-93120083.txt"
     }
   },
   {
@@ -777,8 +777,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/2003/04/16/arp209/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/20030514-03125002.txt",
-      "es": "data/output/es/20030514-03125002.txt"
+      "ca": "output/ca/20030514-03125002.txt",
+      "es": "output/es/20030514-03125002.txt"
     }
   },
   {
@@ -823,8 +823,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1984/02/03/(12)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19840314-845-84.txt",
-      "es": "data/output/es/19840314-845-84.txt"
+      "ca": "output/ca/19840314-845-84.txt",
+      "es": "output/es/19840314-845-84.txt"
     }
   },
   {
@@ -869,8 +869,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/2003/11/24/arp470/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/20031203-03325035.txt",
-      "es": "data/output/es/20031203-03325035.txt"
+      "ca": "output/ca/20031203-03325035.txt",
+      "es": "output/es/20031203-03325035.txt"
     }
   },
   {
@@ -915,8 +915,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/2003/05/02/arp204/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/20030513-03120016.txt",
-      "es": "data/output/es/20030513-03120016.txt"
+      "ca": "output/ca/20030513-03120016.txt",
+      "es": "output/es/20030513-03120016.txt"
     }
   },
   {
@@ -961,8 +961,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/2001/12/31/(2)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/20020110-01355071.txt",
-      "es": "data/output/es/20020110-01355071.txt"
+      "ca": "output/ca/20020110-01355071.txt",
+      "es": "output/es/20020110-01355071.txt"
     }
   },
   {
@@ -1007,8 +1007,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/1990/09/04/226/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19901003-90204062.txt",
-      "es": "data/output/es/19901003-90204062.txt"
+      "ca": "output/ca/19901003-90204062.txt",
+      "es": "output/es/19901003-90204062.txt"
     }
   },
   {
@@ -1053,8 +1053,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/2000/09/21/(1)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/20001009-00264005.txt",
-      "es": "data/output/es/20001009-00264005.txt"
+      "ca": "output/ca/20001009-00264005.txt",
+      "es": "output/es/20001009-00264005.txt"
     }
   },
   {
@@ -1099,8 +1099,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/2010/12/09/iue582/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/20101221-10335088.txt",
-      "es": "data/output/es/20101221-10335088.txt"
+      "ca": "output/ca/20101221-10335088.txt",
+      "es": "output/es/20101221-10335088.txt"
     }
   },
   {
@@ -1145,8 +1145,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1992/12/10/(4)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19930104-92329084.txt",
-      "es": "data/output/es/19930104-92329084.txt"
+      "ca": "output/ca/19930104-92329084.txt",
+      "es": "output/es/19930104-92329084.txt"
     }
   },
   {
@@ -1191,8 +1191,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/1983/10/18/439/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19831109-3479-83.txt",
-      "es": "data/output/es/19831109-3479-83.txt"
+      "ca": "output/ca/19831109-3479-83.txt",
+      "es": "output/es/19831109-3479-83.txt"
     }
   },
   {
@@ -1237,8 +1237,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/1982/11/04/412/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19821126-3505-82.txt",
-      "es": "data/output/es/19821126-3505-82.txt"
+      "ca": "output/ca/19821126-3505-82.txt",
+      "es": "output/es/19821126-3505-82.txt"
     }
   },
   {
@@ -1283,8 +1283,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1987/05/04/(15)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19870619-87134046.txt",
-      "es": "data/output/es/19870619-87134046.txt"
+      "ca": "output/ca/19870619-87134046.txt",
+      "es": "output/es/19870619-87134046.txt"
     }
   },
   {
@@ -1329,8 +1329,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/2010/02/26/mah134/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/20100312-10032006.txt",
-      "es": "data/output/es/20100312-10032006.txt"
+      "ca": "output/ca/20100312-10032006.txt",
+      "es": "output/es/20100312-10032006.txt"
     }
   },
   {
@@ -1375,8 +1375,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/l/1983/08/02/20/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19830809-2574-83.txt",
-      "es": "data/output/es/19830809-2574-83.txt"
+      "ca": "output/ca/19830809-2574-83.txt",
+      "es": "output/es/19830809-2574-83.txt"
     }
   },
   {
@@ -1421,8 +1421,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1988/01/07/(7)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19880129-87364012.txt",
-      "es": "data/output/es/19880129-87364012.txt"
+      "ca": "output/ca/19880129-87364012.txt",
+      "es": "output/es/19880129-87364012.txt"
     }
   },
   {
@@ -1467,8 +1467,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1992/05/14/(3)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19920610-92098006.txt",
-      "es": "data/output/es/19920610-92098006.txt"
+      "ca": "output/ca/19920610-92098006.txt",
+      "es": "output/es/19920610-92098006.txt"
     }
   },
   {
@@ -1513,8 +1513,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1988/04/20/(7)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19880429-88103009.txt",
-      "es": "data/output/es/19880429-88103009.txt"
+      "ca": "output/ca/19880429-88103009.txt",
+      "es": "output/es/19880429-88103009.txt"
     }
   },
   {
@@ -1559,8 +1559,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1983/05/11/(5)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19830610-1921-83.txt",
-      "es": "data/output/es/19830610-1921-83.txt"
+      "ca": "output/ca/19830610-1921-83.txt",
+      "es": "output/es/19830610-1921-83.txt"
     }
   },
   {
@@ -1605,8 +1605,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1989/04/11/(15)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19890424-89088071.txt",
-      "es": "data/output/es/19890424-89088071.txt"
+      "ca": "output/ca/19890424-89088071.txt",
+      "es": "output/es/19890424-89088071.txt"
     }
   },
   {
@@ -1651,8 +1651,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1985/03/14/(14)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19850424-1076-85.txt",
-      "es": "data/output/es/19850424-1076-85.txt"
+      "ca": "output/ca/19850424-1076-85.txt",
+      "es": "output/es/19850424-1076-85.txt"
     }
   },
   {
@@ -1697,8 +1697,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/1999/01/26/7/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19990201-99018037.txt",
-      "es": "data/output/es/19990201-99018037.txt"
+      "ca": "output/ca/19990201-99018037.txt",
+      "es": "output/es/19990201-99018037.txt"
     }
   },
   {
@@ -1743,8 +1743,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1994/11/07/(1)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19941128-94294062.txt",
-      "es": "data/output/es/19941128-94294062.txt"
+      "ca": "output/ca/19941128-94294062.txt",
+      "es": "output/es/19941128-94294062.txt"
     }
   },
   {
@@ -1789,8 +1789,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1990/12/19/(4)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19901228-90339005.txt",
-      "es": "data/output/es/19901228-90339005.txt"
+      "ca": "output/ca/19901228-90339005.txt",
+      "es": "output/es/19901228-90339005.txt"
     }
   },
   {
@@ -1835,8 +1835,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1987/01/19/(2)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19870206-1635.txt",
-      "es": "data/output/es/19870206-1635.txt"
+      "ca": "output/ca/19870206-1635.txt",
+      "es": "output/es/19870206-1635.txt"
     }
   },
   {
@@ -1881,8 +1881,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1981/11/10/(7)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19811211-2338-81.txt",
-      "es": "data/output/es/19811211-2338-81.txt"
+      "ca": "output/ca/19811211-2338-81.txt",
+      "es": "output/es/19811211-2338-81.txt"
     }
   },
   {
@@ -1927,8 +1927,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/1996/04/02/110/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19960410-96078003.txt",
-      "es": "data/output/es/19960410-96078003.txt"
+      "ca": "output/ca/19960410-96078003.txt",
+      "es": "output/es/19960410-96078003.txt"
     }
   },
   {
@@ -1973,8 +1973,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/1993/12/09/314/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19931229-93260024.txt",
-      "es": "data/output/es/19931229-93260024.txt"
+      "ca": "output/ca/19931229-93260024.txt",
+      "es": "output/es/19931229-93260024.txt"
     }
   },
   {
@@ -2019,8 +2019,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1996/07/15/(2)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19960719-96197022.txt",
-      "es": "data/output/es/19960719-96197022.txt"
+      "ca": "output/ca/19960719-96197022.txt",
+      "es": "output/es/19960719-96197022.txt"
     }
   },
   {
@@ -2065,8 +2065,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/1981/07/02/187/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19811106-1975-81.txt",
-      "es": "data/output/es/19811106-1975-81.txt"
+      "ca": "output/ca/19811106-1975-81.txt",
+      "es": "output/es/19811106-1975-81.txt"
     }
   },
   {
@@ -2111,8 +2111,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/2017/10/11/tsf232/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/20171017-17286061.txt",
-      "es": "data/output/es/20171017-17286061.txt"
+      "ca": "output/ca/20171017-17286061.txt",
+      "es": "output/es/20171017-17286061.txt"
     }
   },
   {
@@ -2157,8 +2157,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/2017/07/12/emc155/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/20170718-17195039.txt",
-      "es": "data/output/es/20170718-17195039.txt"
+      "ca": "output/ca/20170718-17195039.txt",
+      "es": "output/es/20170718-17195039.txt"
     }
   },
   {
@@ -2203,8 +2203,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/2014/08/25/aam272/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/20140904-14245031.txt",
-      "es": "data/output/es/20140904-14245031.txt"
+      "ca": "output/ca/20140904-14245031.txt",
+      "es": "output/es/20140904-14245031.txt"
     }
   },
   {
@@ -2249,8 +2249,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1986/06/05/(5)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19860620-6752-86.txt",
-      "es": "data/output/es/19860620-6752-86.txt"
+      "ca": "output/ca/19860620-6752-86.txt",
+      "es": "output/es/19860620-6752-86.txt"
     }
   },
   {
@@ -2295,8 +2295,8 @@
       "url": "https://portaljuridic.gencat.cat/eli/es-ct/o/1989/03/16/(1)/dof/spa/xml"
     },
     "files": {
-      "ca": "data/output/ca/19890403-89061007.txt",
-      "es": "data/output/es/19890403-89061007.txt"
+      "ca": "output/ca/19890403-89061007.txt",
+      "es": "output/es/19890403-89061007.txt"
     }
   }
 ]
