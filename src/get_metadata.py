@@ -27,7 +27,7 @@ def export_metadata_API():
 
     # First 100000 results (temporary limit), returned as JSON from API / converted to Python list of
     # dictionaries by sodapy.
-    results = client.get("n6hn-rmy7", limit=50)
+    results = client.get("n6hn-rmy7", limit=100000)
 
     with open('metadata.json', 'w') as fp:
         json.dump(results, fp, indent=2)

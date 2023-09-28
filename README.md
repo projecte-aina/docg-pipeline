@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ```
 4. Ask for a free App Token in: https://analisi.transparenciacatalunya.cat/profile/edit/developer_settings
 
-5. Create a *.env* file in the src/ folder with the following content:
+5. Create a **.env** file in the src/ folder with the following content:
 ```
 # environment variables defined inside a .env file
 APP_TOKEN= <INSERT HERE YOUR APP TOKEN>
@@ -45,6 +45,7 @@ Use examples liberally, and show the expected output if you can. It's helpful to
 ```mermaid
 graph TD;
     get_metadata.py --> scraper.py --> rebuild_structure.py
+    get_metadata.py --> metadata.json
 ```
 
 ## Roadmap
