@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  app:
+    build:
+      context: .
+    command: src/scraper.py
+    volumes:
+      - data_ca:/home/user/app/data/output/ca
+      - data_es:/home/user/app/data/output/es
+    restart: unless-stopped
+    shm_size: '2gb'
+  
+volumes:
+  data_ca:
+    driver: local
+  data_es:
+    driver: local
