@@ -1,7 +1,6 @@
 import json
-import sys
-from dotenv import dotenv_values
 import os
+from dotenv import load_dotenv
 import boto3
 from botocore.client import Config
 
@@ -9,12 +8,12 @@ from botocore.client import Config
 from sodapy import Socrata
 
 # Loading environment variables
-config = dotenv_values(".env")
+load_dotenv()
 
 s3 = boto3.resource('s3',
-                    endpoint_url=f"{config['S3_HTTP']}{config['S3_ENDPOINT']}",
-                    aws_access_key_id=config["S3_ACCESS_KEY"],
-                    aws_secret_access_key=config["S3_SECRET_KEY"],
+                    endpoint_url=f"{os.getenv('S3_HTTP')}{os.getenv('S3_ENDPOINT')}",
+                    aws_access_key_id=os.getenv("S3_ACCESS_KEY"),
+                    aws_secret_access_key=os.getenv("S3_SECRET_KEY"),
                     config=Config(signature_version='s3v4'),
                     region_name='us-east-1')
 
@@ -27,9 +26,9 @@ def export_metadata_API():
 
     # Example authenticated client (needed for non-public datasets):
     client = Socrata("analisi.transparenciacatalunya.cat",
-                     config["APP_TOKEN"],
-                     username=config["USER"],
-                     password=config["PASSWORD"])
+                     os.getenv("APP_TOKEN"),
+                     username=os.getenv("USER"),
+                     password=os.getenv("PASSWORD"))
 
     # First 100000 results (temporary limit), returned as JSON from API / converted to Python list of
     # dictionaries by sodapy.
@@ -37,7 +36,7 @@ def export_metadata_API():
 
         
     s3_object = s3.Object(
-        bucket_name=config["S3_BUCKET"], 
+        bucket_name=os.getenv("S3_BUCKET"), 
         key="metadata.json"
     )
     s3_object.put(Body=json.dumps(results, indent=2))

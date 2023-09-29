@@ -40,7 +40,7 @@ PASSWORD= <INSERT HERE YOUR PASSWORD>
 Tested under python 3.7.
 
 ### Deployment via docker compose
-```make crawl```
+```docker-compose up -d --build```
 
 
 ## Usage
