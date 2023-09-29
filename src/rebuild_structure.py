@@ -1,19 +1,16 @@
-import json
+import os
 import re
 import boto3
 from botocore.client import Config
-from dotenv import dotenv_values
-
 # sys.setrecursionlimit(999999999)
-config = dotenv_values(".env")
 
 s3 = boto3.resource('s3',
-                    endpoint_url=f"{config['S3_HTTP']}{config['S3_ENDPOINT']}",
-                    aws_access_key_id=config["S3_ACCESS_KEY"],
-                    aws_secret_access_key=config["S3_SECRET_KEY"],
+                    endpoint_url=f"{os.getenv('S3_HTTP')}{os.getenv('S3_ENDPOINT')}",
+                    aws_access_key_id=os.getenv("S3_ACCESS_KEY"),
+                    aws_secret_access_key=os.getenv("S3_SECRET_KEY"),
                     config=Config(signature_version='s3v4'),
                     region_name='us-east-1')
-            
+
 # Defining generic variables
 end_of_sentence = [":", ".", ";", "!", "?", ""]
 subheaders = [

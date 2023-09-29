@@ -1,5 +1,4 @@
 import traceback
-import requests
 from urllib.request import urlopen
 import json
 import os
@@ -19,17 +18,18 @@ import boto3
 from botocore.client import Config
 from botocore.exceptions import ClientError
 import botocore
-from dotenv import dotenv_values
+from dotenv import load_dotenv
+from get_metadata import export_metadata_API
 
 from rebuild_structure import fix_text
 
 # sys.setrecursionlimit(999999999)
-config = dotenv_values(".env")
+load_dotenv()
 
 s3 = boto3.resource('s3',
-                    endpoint_url=f"{config['S3_HTTP']}{config['S3_ENDPOINT']}",
-                    aws_access_key_id=config["S3_ACCESS_KEY"],
-                    aws_secret_access_key=config["S3_SECRET_KEY"],
+                    endpoint_url=f"{os.getenv('S3_HTTP')}{os.getenv('S3_ENDPOINT')}",
+                    aws_access_key_id=os.getenv("S3_ACCESS_KEY"),
+                    aws_secret_access_key=os.getenv("S3_SECRET_KEY"),
                     config=Config(signature_version='s3v4'),
                     region_name='us-east-1')
 
@@ -86,7 +86,7 @@ def read_html(diari, path, lang, title):
         # Writes the result in a .txt file to the S3 Object Store
 
         s3_object = s3.Object(
-            bucket_name=config["S3_BUCKET"], 
+            bucket_name=os.getenv("S3_BUCKET"), 
             key=f"{path}"
         )
         s3_object.put(Body=fix_text(text, title))
@@ -102,8 +102,15 @@ if __name__ == "__main__":
 
     # Loading metadata file obtained from get_metadata.py
     # f = open("metadata.json", "r")
-    content_object = s3.Object(config["S3_BUCKET"], 'metadata.json')
-    file_content = content_object.get()['Body'].read().decode('utf-8')
+    try:
+        content_object = s3.Object(os.getenv("S3_BUCKET"), 'metadata.json')
+        file_content = content_object.get()['Body'].read().decode('utf-8')
+
+    except s3.meta.client.exceptions.NoSuchKey as e:
+        export_metadata_API()
+        content_object = s3.Object(os.getenv("S3_BUCKET"), 'metadata.json')
+        file_content = content_object.get()['Body'].read().decode('utf-8')
+
     data = json.loads(file_content)
     count = 0
 
@@ -119,7 +126,7 @@ if __name__ == "__main__":
 
         # Checks if the file already exists in the catalan folder and if not reads it. 
         try:
-            s3.Object(config["S3_BUCKET"], data[i]["files"]["ca"]).load()
+            s3.Object(os.getenv("S3_BUCKET"), data[i]["files"]["ca"]).load()
         except botocore.exceptions.ClientError as e:
             if e.response['Error']['Code'] == "404":
                 # The object does not exist.
@@ -138,7 +145,7 @@ if __name__ == "__main__":
 
             # Checks if the file already exists in the catalan folder and if not reads it. 
             try:
-                s3.Object(config["S3_BUCKET"], data[i]["files"]["es"]).load()
+                s3.Object(os.getenv("S3_BUCKET"), data[i]["files"]["es"]).load()
             except botocore.exceptions.ClientError as e:
                 if e.response['Error']['Code'] == "404":
                     # The object does not exist.
@@ -156,7 +163,7 @@ if __name__ == "__main__":
             break
 
     s3_object = s3.Object(
-        bucket_name=config["S3_BUCKET"], 
+        bucket_name=os.getenv("S3_BUCKET"), 
         key="metadata.json"
     )
     s3_object.put(Body=json.dumps(data, indent=2))

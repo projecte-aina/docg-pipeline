@@ -28,8 +28,4 @@ WORKDIR $HOME/app
 # Copy the current directory contents into the container at $HOME/app setting the owner to the user
 COPY --chown=user . $HOME/app
 
-RUN mkdir -p $HOME/app/data/output/ca && chown 1000:1000 $HOME/app/data/output/ca
-RUN mkdir -p $HOME/app/data/output/es && chown 1000:1000 $HOME/app/data/output/es
- 
-
 ENTRYPOINT [ "python", "-u" ]
