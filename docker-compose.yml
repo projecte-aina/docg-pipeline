@@ -3,7 +3,7 @@ services:
   app:
     build:
       context: .
-    command: src/scraper.py
+    command: src/scraper.py --es 1
     restart: unless-stopped
     shm_size: '2gb'
     env_file:
