@@ -44,8 +44,9 @@ Tested under python 3.7.
 
 
 ## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+To run it without docker: ```src/scraper.py --es 1```
 
+The three sripts that can be found in the source folder are executed in the order described below:
 ```mermaid
 graph TD;
     get_metadata.py --> scraper.py --> rebuild_structure.py
@@ -55,16 +56,15 @@ graph TD;
 ## Roadmap
 - [ ] Enable option to download XML files.
 - [ ] Enable option to download PDF files.
-- [ ] Develop an orquestator for the three steps.
+- [X] Develop an orquestator for the three steps.
 
-## Contributing
-If you 
 
 ## License
-For open source projects, say how it is licensed.
+Apache 2.0
 
 ## Contact
 Jorge Palomar - jorge.palomar@bsc.es
+Language Technologies Unit - langtech@bsc.es
 
 ## Acknowledgments
 This tool is the result of the project with reference 2022/TL22/00215337 funded by the Ministry of Economic Affairs and Digital Transformation and by the Recovery, Transformation and Resilience Plan - Funded by the European Union - NextGenerationEU.
