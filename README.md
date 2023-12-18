@@ -63,7 +63,7 @@ graph TD;
 Apache 2.0
 
 ## Contact
-Jorge Palomar - jorge.palomar@bsc.es
+Jorge Palomar - jorge.palomar@bsc.es \\
 Language Technologies Unit - langtech@bsc.es
 
 ## Acknowledgments
