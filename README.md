@@ -67,4 +67,4 @@ Jorge Palomar - jorge.palomar@bsc.es \\
 Language Technologies Unit - langtech@bsc.es
 
 ## Acknowledgments
-This tool is the result of the project with reference 2022/TL22/00215337 funded by the Ministry of Economic Affairs and Digital Transformation and by the Recovery, Transformation and Resilience Plan - Funded by the European Union - NextGenerationEU.
+This work was funded by Departament de la Vicepresidència i de Polítiques Digitals i Territori de la Generalitat de Catalunya within the framework of Projecte AINA.
